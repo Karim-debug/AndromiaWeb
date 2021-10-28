@@ -1,4 +1,4 @@
-<template>
+<template class="dark">
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
@@ -90,3 +90,11 @@ export default defineComponent({
   }
 })
 </script>
+
+
+
+<style>
+ .dark {
+     background: #000
+   }
+</style>
