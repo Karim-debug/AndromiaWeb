@@ -2,9 +2,15 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/Andromia.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '/main', component: () => import('src/pages/AndromiaMain.vue') },
+      { path: '/', component: () => import('src/pages/Connexion.vue') },
+      { path: '/creationCompte', component: () => import('src/pages/CreationCompte.vue') },
+      { path: '/collectionMonstres', component: () => import('src/pages/CollectionDeMonstres.vue') },
+      { path: '/detailsMonstre', component: () => import('src/pages/DetailsMonstre.vue') },
+      { path: '/inventaireElements', component: () => import('src/pages/InventaireElements.vue') },
+
     ]
   },
 
