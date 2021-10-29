@@ -1,5 +1,5 @@
-<template class="dark">
-  <q-layout view="lHh Lpr lFf">
+<template >
+  <q-layout class="backColor" view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title >
@@ -94,7 +94,5 @@ export default defineComponent({
 
 
 <style>
- .dark {
-     background: #000
-   }
+ 
 </style>
