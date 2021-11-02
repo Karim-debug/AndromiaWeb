@@ -10,13 +10,13 @@
               <h2><b>Andromia</b></h2>
             </div>
 
-            <div class="col-md-12 offset-md-6">
+            <div class="col-md-12 offset-md-4">
               <h4>Connexion</h4>
             </div>
 
 
       
-            <div class="col-md-12 offset-md-4">
+            <div class="col-md-12 offset-md-2">
 
                 <q-input class="input" filled label="Email">
                   <template v-slot:prepend>
@@ -28,7 +28,7 @@
 
             <br>
 
-            <div class="pass col-md-12 offset-md-4">
+            <div class="pass col-md-12 offset-md-2">
                   <q-input class="input" filled label="Password">
                   <template v-slot:prepend>
                     <q-icon name="key" />
@@ -52,7 +52,7 @@
          
 
            <div class="col-md-12 text-center">
-              <q-btn color="teal">
+              <q-btn class="glow-on-hover" @click="$router.replace('/creationCompte')">
                 <q-icon left size="3em" name="person" />
                 <div>Crée Compte!</div>
               </q-btn>
@@ -78,8 +78,11 @@ export default defineComponent({
 })
 </script>
 
-<style>
 
+
+
+
+<style>
 .creationCompteText{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -103,5 +106,4 @@ export default defineComponent({
   padding: 15em;
   
 }
-
 </style>
