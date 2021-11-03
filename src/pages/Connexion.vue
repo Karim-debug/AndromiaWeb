@@ -3,7 +3,7 @@
   <q-header elevated>
       <q-toolbar class="toolBar">
 
-        <q-img class="logo" src="images/Elements/Wu.png"/>
+        <q-img class="logo" src="images/Elements/token.png"/>
    
 
         <q-toolbar-title class="title">
@@ -19,7 +19,7 @@
           </div>
 
       </q-toolbar>
-    </q-header>
+  </q-header>
 
   
 
