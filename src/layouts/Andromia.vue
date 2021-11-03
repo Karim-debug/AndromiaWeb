@@ -1,13 +1,6 @@
 <template >
   <q-layout class="backColor" view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-toolbar-title >
-          ANDROMIA
-        </q-toolbar-title>
-
-      </q-toolbar>
-    </q-header>
+  
 
 
     <q-page-container>
