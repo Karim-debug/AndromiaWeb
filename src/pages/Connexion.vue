@@ -3,7 +3,7 @@
   <q-header elevated>
       <q-toolbar class="toolBar">
 
-        <q-img class="logo" src="images/Wu.png"/>
+        <q-img class="logo" src="images/Elements/Wu.png"/>
    
 
         <q-toolbar-title class="title">
@@ -21,12 +21,9 @@
       </q-toolbar>
     </q-header>
 
-   
-      
   
 
-
-      <q-img class="imageBack" src="images/exploring.jpg"/>
+       <q-img class="imageBack" src="images/Explorations/exploring1.png"/>
 
       <div class="subTitle">
       Welcome To Andromia's<br> 
@@ -80,6 +77,7 @@ export default defineComponent({
 
 
 <style>
+
 
 .subTitle{
   text-align:center;
