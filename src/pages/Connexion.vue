@@ -150,6 +150,7 @@ export default defineComponent({
   font-family: fantasy;
   height: 150px;
   background: rgb(152, 87, 214);
+  
 }
 
 
