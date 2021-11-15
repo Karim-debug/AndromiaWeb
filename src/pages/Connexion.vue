@@ -23,7 +23,7 @@
 
   
 
-       <q-img class="imageBack" src="images/Explorations/exploring1.png"/>
+       <q-img  src="images/Explorations/exploring1.png"/>
 
       <div class="subTitle">
       Welcome To Andromia's<br> 
@@ -62,7 +62,11 @@
               </q-btn>
           </div>
 
+
     </template>
+
+
+
 
 <script>
 import { defineComponent } from 'vue';
@@ -142,16 +146,10 @@ export default defineComponent({
   left: 20%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 60%;
+}
 
 
-}
-.toolBar{
-  font-family: fantasy;
-  height: 150px;
-  background: rgb(152, 87, 214);
-  
-}
 
 
 .template{

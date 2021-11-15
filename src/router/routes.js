@@ -8,7 +8,7 @@ const routes = [
       { path: '/', component: () => import('src/pages/Connexion.vue') },
       { path: '/creationCompte', component: () => import('src/pages/CreationCompte.vue') },
       { path: '/collectionMonstres', component: () => import('src/pages/CollectionDeMonstres.vue') },
-      { path: '/detailsMonstre', component: () => import('src/pages/DetailsMonstre.vue') },
+      { name: 'detailMonster',path: '/detailsMonstre', component: () => import('src/pages/DetailsMonstre.vue') },
       { path: '/inventaireElements', component: () => import('src/pages/InventaireElements.vue') },
 
     ]

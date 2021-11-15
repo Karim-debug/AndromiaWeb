@@ -1,10 +1,5 @@
 // app global css in SCSS form
 
- body.body--dark {
-     background: #000
-   }
-
-
 
    //BOUTON GLOW
    .glow-on-hover {
@@ -70,3 +65,9 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+.toolBar{
+    font-family: fantasy;
+    height: 150px;
+    background: rgb(219, 155, 36);
+  }

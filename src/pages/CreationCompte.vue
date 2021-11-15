@@ -1,21 +1,28 @@
 <template>
 
   <q-header elevated>
-      <q-toolbar class="toolBar">
+    <q-toolbar class="toolBarMain">
 
-        <q-img class="logo" src="images/Elements/token.png"/>
+      <div class="row">
 
-          <div class="title col-md-3 text-center">
+        <div class="title2 col-md-6">
+
+          <div class="row">
+            <q-img class="logo" src="images/Elements/token.png" />
             <h3>ANDROMIA</h3>
           </div>
 
-      </q-toolbar>
+        </div>
+
+      </div>
+    </q-toolbar>
   </q-header>
 
-       <q-img class="imageBack" src="images/Backgrounds/back2.png"/>
+
+       <q-img src="images/Backgrounds/back2.png"/>
 
       <div class="subTitle">
-       <h1> Account Creation </h1>
+       <h1>Account Creation</h1>
       </div>
 
     <div class="user col-md-12">

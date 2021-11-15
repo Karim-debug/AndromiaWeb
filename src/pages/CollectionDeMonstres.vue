@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
    
 
-<h1>Collection de Monstres</h1>
+<h1>Collection de Monstres </h1>
 
 
 
