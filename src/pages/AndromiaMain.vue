@@ -48,7 +48,7 @@
               <h5>Inox: {{explorers.inox}}</h5>
             </div>
 
-            <div class="btnDe col-md-12">
+            <div class="col-md-12">
               <q-btn class="btnDecon" color="red" label="Déconnexion" @click="$router.replace('/')"/>
              </div>
           </div>
@@ -138,6 +138,7 @@ export default defineComponent({
 .username{
   margin-top: 10px;
 }
+
 .logo2{
   width: 10em;
   height: 15em;
@@ -160,12 +161,6 @@ export default defineComponent({
  
 }
 
-
-
-.footer {
-  font-family: fantasy;
-  background: rgb(219, 155, 36);
-}
 .userImage {
   height: 7em;
   width: 7em;

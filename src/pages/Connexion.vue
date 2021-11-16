@@ -83,81 +83,9 @@ export default defineComponent({
 <style>
 
 
-.subTitle{
-  text-align:center;
- position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  color: white;
-  font-family: fantasy;
-}
-
-.btnLog{
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  color: white;
-  font-family: fantasy;
-}
-.sign{
- position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  color: white;
-  font-family: fantasy;
-}
-
-
-.email{
-  background-color: white;
- position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.password{
-  background-color: white;
- position: absolute;
-  top: 82%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.text-subtitle{
- 
-  font-family: fantasy;
-  color: white;
-  text-align: justify;
-  font-size: 4em;
-}
-
-.logo{
-  width: 15em;
-}
-
-.title{
-  text-align:center;
-  left: 20%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 60%;
-}
 
 
 
 
-.template{
-  margin: 6em;
-}
-
-.input{
-  width: 30em;
-}
 
 </style>

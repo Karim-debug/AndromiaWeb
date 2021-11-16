@@ -1,21 +1,24 @@
 <template>
 
-  <q-header elevated>
-    <q-toolbar class="toolBarMain">
+    <q-header elevated>
+      <q-toolbar class="toolBar">
 
-      <div class="row">
+        <q-img class="logo" src="images/Elements/token.png"/>
+   
 
-        <div class="title2 col-md-6">
-
-          <div class="row">
-            <q-img class="logo" src="images/Elements/token.png" />
-            <h3>ANDROMIA</h3>
+        <q-toolbar-title class="title">
+         ANDROMIA <br>
+        The Ultimate Exploration Game!
+        </q-toolbar-title>
+       
+          <div class="col-md-3 text-center">
+              <q-btn class="glow-on-hover" @click="$router.replace('/')">
+                <q-icon left size="3em" name="person" />
+                <div>Connexion</div>
+              </q-btn>
           </div>
 
-        </div>
-
-      </div>
-    </q-toolbar>
+      </q-toolbar>
   </q-header>
 
 
