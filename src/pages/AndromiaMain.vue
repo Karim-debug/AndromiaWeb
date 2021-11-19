@@ -9,24 +9,22 @@
           <div class="row">
 
 
-            <div class="col-md-2">
-              <q-img class="logo2" src="images/Elements/token.png" />
-            </div>
+               <div class="col-md-2">
+                 <q-img class="logo2" src="images/Elements/token.png" />
+               </div>
 
-        <div class="row col-md-10">
+                <div class="row col-md-10">
+
+
+                    <div class="col-md-5">
+                      <h1>ANDROMIA</h1>
+                    </div>
+
+                    <div class="col-md-12">
+
+                    </div>
+                </div>
           
-
-            <div class="col-md-5">
-              <h1>ANDROMIA</h1>
-            </div>
-
-            <div class="col-md-12">
-             
-            </div>
-
-        </div>
-          
-
           </div>
 
              
@@ -69,21 +67,20 @@
   </q-header>
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <q-img class="backElem" src="images/Elements/elements.png" />
 
-      <div class="btnElemColl">
+      <div class="btnElemColl col-sm-12">
         <q-btn
           class="glow-on-hover"
-          @click="$router.replace('/inventaireElements')"
-        >
+          @click="$router.replace('/inventaireElements')">
           <q-icon left size="3em" name="stream" />
-          <div>Mes Éléments</div>
+          <div>My Elements</div>
         </q-btn>
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <q-img class="backMons" src="images/Monstres/monster4.png" />
 
       <div class="btnMonsterColl">
@@ -92,7 +89,7 @@
           @click="$router.replace('/collectionMonstres')"
         >
           <q-icon left size="3em" name="catching_pokemon" />
-          <div>Mes Monstres</div>
+          <div>My Monsters</div>
         </q-btn>
       </div>
     </div>
@@ -146,6 +143,7 @@ export default defineComponent({
 
 .filet{
   margin-top: 200px;
+ 
 }
 
 .btnDecon {
@@ -193,12 +191,15 @@ export default defineComponent({
 
 .backElem {
   height: 60em;
-  width: 65em;
+  width: 75em;
 }
 
 .backMons {
   height: 60em;
-  width: 65em;
+  width: 75em;
+
+  
+  
 }
 
 .btnElemColl {
@@ -224,4 +225,17 @@ export default defineComponent({
   width: 100px;
 
 }
+
+@media (max-width: 470px max-height: 777px){
+
+.btnMonsterColl {
+  top: 60%;
+  left: 10%;
+  font-size: 3em;
+  color: white;
+  font-family: fantasy;
+}
+
+}
+
 </style>
