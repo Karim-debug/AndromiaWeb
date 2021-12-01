@@ -5,7 +5,7 @@ const routes = [
     component: () => import('src/layouts/Andromia.vue'),
     children: [
       { path: '/main', component: () => import('src/pages/AndromiaMain.vue') },
-      { path: '/', component: () => import('src/pages/Connexion.vue') },
+      { name: 'index', path: '/', component: () => import('src/pages/Connexion.vue') },
       { path: '/creationCompte', component: () => import('src/pages/CreationCompte.vue') },
       { path: '/collectionMonstres', component: () => import('src/pages/CollectionDeMonstres.vue') },
       { name: 'detailMonster',path: '/detailsMonstre', component: () => import('src/pages/DetailsMonstre.vue') },

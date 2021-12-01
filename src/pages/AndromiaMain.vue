@@ -47,7 +47,7 @@
             </div>
 
             <div class="col-md-12">
-              <q-btn class="btnDecon" color="red" label="Déconnexion" @click="$router.replace('/')"/>
+              <q-btn  class="btnDecon" @click="decon" color="red" label="Déconnexion"/>
              </div>
           </div>
 
@@ -104,22 +104,44 @@
 <script>
 import { api } from 'boot/axios';
 import { defineComponent, ref, onMounted } from "vue";
+import { useRouter } from 'vue-router';
 
-const BASE_URL = 'https://boggy-strengthened-zenobia.glitch.me';
+const BASE_URL = 'http://andro.us-3.evennode.com/explorers';
+
 
 export default defineComponent({
   setup(){
-    const explorers = ref([]);
-   
+    const explorers = ref({});
+    const router = useRouter();
+
+
+
+  async function decon(){
+
+    sessionStorage.removeItem('Href');
+    sessionStorage.clear();
+       router.push("/");
+
+  }
+
+
     onMounted(async () =>{
-      const response = await api.get(`${BASE_URL}/explorers/1`);
-      if(response.status === 200)
-      {
-        explorers.value = response.data;
-      }
+
+
+        const data = sessionStorage.getItem('Href');
+
+        const response = await api.get(`${data}`);
+
+    if(response.status === 200)
+    {
+      explorers.value = response.data;
+    }
+
+
     });
     return{
-      explorers
+      explorers,
+      decon
     }
   }
 });
